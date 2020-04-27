@@ -1,0 +1,25 @@
+{
+  "name": "chatty",
+  "version": "1.0.0",
+  "description": "A chat app for Hack Reactor interview challenge",
+  "main": "index.js",
+  "dependencies": {
+    "express": "^4.15.2",
+    "socket.io": "^2.3.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AustinAbbott/chatty.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AustinAbbott/chatty/issues"
+  },
+  "homepage": "https://github.com/AustinAbbott/chatty#readme"
+}
