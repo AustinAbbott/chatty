@@ -32,17 +32,26 @@
       }
       #messages {
         list-style-type: none;
-        margin: 0;
+        margin: 25em;
         padding: 0;
       }
       #messages li {
-        padding: 5px 10px;
+        border-radius: 5px;
+        margin-top: 0.25em;
+        padding: 0.40em;
+        background: #eee;
       }
       #messages li:nth-child(odd) {
-        background: #eee;
+        border-radius: 5px;
+        margin-top: 0.25em;
+        padding: 0.40em;
+        background: #1c8cf5;
+        text-align: right;
+        color: white;
       }
     </style>
   </head>
+  <header><h1>meMessage.com</h1></header>
   <body>
     <ul id="messages"></ul>
     <form action="">
